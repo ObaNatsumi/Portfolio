@@ -1,0 +1,143 @@
+*{
+  font-size: 25px;
+}
+body{
+  background-color: #FFFEE9;
+  color: #1CB5C9;
+}
+
+p, button, input {
+  font-family: "筑紫A丸ゴシック";
+}
+
+header h1{
+  font-weight: normal;
+  font-size: 120px;
+  font-family:"Arial Rounded MT Bold";
+  text-align: center;
+  margin: 100px;
+}
+#touch{
+  background-color: #f0efda;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#touch div{
+  margin: 0px 20px;
+}
+#touch p{
+  font-size: 20px;
+}
+#icon{
+  width: 25px;
+  height: 25px;
+}
+
+main{
+  width: 90%;
+  margin: 50px ;
+}
+#intro{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#intro img{
+  width: 40%;
+  border-radius: 50%;
+}
+#intro h1{
+  font-size: 40px;
+  font-family: "筑紫A丸ゴシック";
+}
+
+#about{
+  width:100%;
+}
+#about h1{
+  font-family: "Arial Rounded MT Bold";
+  font-size: 70px;
+  font-weight: normal;
+  text-align: center;
+}
+button{
+  color:#FFFEE9;
+  background-color: #1CB5C9;
+  opacity: 0.7;
+  border-radius: 50px;
+  border: none;
+  min-width: 120px;
+  min-height: 50px;
+}
+button:hover{
+  background-color: #05899b;
+}
+#button{
+  color:#FFFEE9;
+  background-color: #1CB5C9;
+  opacity: 0.7;
+  border-radius: 50px;
+  border: none;
+  min-width: 60px;
+  min-height: 30px;
+}
+#button:hover{
+  background-color: #05899b;
+}
+button:link, button:visited, button:active, button:focus{
+  outline: 0;
+}
+#about #content{
+  display: flex;
+  align-items: center;
+}
+#content{
+  justify-content: space-around;
+}
+#content p{
+  margin: 20% 0px;
+}
+#content button{
+  width:90%;
+}
+#about img{
+  width: 50%;
+  margin: 50px;
+}
+
+#contact h1{
+  font-family: "Arial Rounded MT Bold";
+  font-size: 70px;
+  font-weight: normal;
+  text-align: center;
+}
+#contact p{
+  font-weight: bold;
+}
+form{
+  width: 80%;
+  margin: auto;
+}
+input, textarea{
+  width: 100%;
+  border: solid 1px #1CB5C9;
+  border-color: #1CB5C9;
+  border-radius: 20px;
+  background:white;
+}
+#button{
+  margin: 20px 0px;
+}
+
+footer a{
+  text-decoration: none;
+  margin: auto;
+}
+
+section{
+  margin: 100px 0px;
+}
