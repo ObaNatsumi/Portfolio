@@ -134,6 +134,7 @@ input, textarea{
 }
 
 footer a{
+  text-decoration: underline;
   margin: auto;
 }
 
